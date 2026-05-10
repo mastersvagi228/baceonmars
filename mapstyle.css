@@ -1,0 +1,115 @@
+body {
+    background-image: url(marsmap.jpg);
+    background-size: cover;
+    font-family: monospace;
+}
+
+.room {
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+    text-decoration: none;
+    color:rgb(100, 100, 100);
+    background-color:rgb(219, 219, 219);
+    border: 3.5px solid rgb(100, 100, 100);
+    border-radius: 8px;
+    padding: 4px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.room:hover {
+    border: 5px solid rgb(100, 100, 100);
+    font-size: 36px;
+}
+
+.room.hide {
+    opacity: 0;
+}
+
+button {
+    background-color: rgb(100, 100, 100);
+    color:rgb(219, 219, 219);
+    border: 3px solid rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.btn1 {
+    position: absolute;
+    bottom: 163px;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.btn1:hover {
+    font-size: 33px;
+}
+
+.btn2 {
+    position: absolute;
+    bottom: 10px;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.btn2:hover {
+    font-size: 33px;
+}
+
+.btn3 {
+    position: absolute;
+    bottom: 112px;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.btn3:hover {
+    font-size: 33px;
+}
+
+.btn4 {
+    position: absolute;
+    bottom: 61px;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.btn4:hover {
+    font-size: 33px;
+}
+
+.LR1 {
+    position: absolute;
+    left: 54%;
+    bottom: 25.5%;
+}
+
+.LR2 {
+    position: absolute;
+    left: 80%;
+    bottom: 53%;
+}
+
+.ant1 {
+    position: absolute;
+    left: 18%;
+    bottom: 46%;
+}
+
+.ant2 {
+    position: absolute;
+    left: 37.5%;
+    bottom: 67%;
+}
+
+.lab1 {
+    position: absolute;
+    left: 63%;
+    bottom: 44.5%;
+}
+
+.lab2 {
+    position: absolute;
+    left: 41%;
+    bottom: 39%;
+}
